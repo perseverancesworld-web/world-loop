@@ -1,0 +1,19 @@
+[project]
+name = "world-loop"
+version = "0.4.0"
+description = "Hybrid Async Evolutionary AI Loop"
+authors = [{name="You", email="you@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "matplotlib>=3.8.0"
+]
+
+[project.scripts]
+world-loop-run = "cli.run_experiment:main"
+world-loop-plot = "cli.plot_runs:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
