@@ -1,0 +1,14 @@
+{
+  "domain": "systems_architecture",
+  "goal": "Design a closed-loop life support system for a 6-person Martian habitat capable of operating independently for 24 months.",
+  "difficulty": 0.6,
+  "noise": 0.1,
+  "mutation_rate": 0.12,
+  "constraints": [
+    "Maximum power draw cannot exceed 150kW.",
+    "Must include biological and mechanical redundancy for water recycling.",
+    "No reliance on Earth resupply shipments.",
+    "Address regolith radiation shielding integration."
+  ],
+  "roles": ["planner", "builder", "critic", "verifier"]
+}
