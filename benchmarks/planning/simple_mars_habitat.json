@@ -1,0 +1,17 @@
+{
+  "name": "simple_mars_habitat_planning",
+  "domain": "systems_architecture",
+  "goal": "Design basic life support for 4-person Martian habitat for 6 months.",
+  "difficulty": 0.4,
+  "constraints": [
+    "Power limit 80kW",
+    "Water recycling efficiency >85%",
+    "Radiation shielding using local regolith"
+  ],
+  "expected_elements": ["power", "water", "air", "shelter"],
+  "scoring": {
+    "constraint_adherence": 0.5,
+    "completeness": 0.3,
+    "innovation": 0.2
+  }
+}
