@@ -1,20 +1,7 @@
-# World-Loop AI
+# World-Loop v0.5+ Genesis
 
-A hybrid, asynchronous evolutionary cognition loop.
+Evolutionary AI Research Platform with Experimental Intelligence and Observatory.
 
-**Quick confirmation excerpt from attached document:**  
-> “This includes the asynchronous execution, hybrid evaluator, lineage tracking, and multi-LLM support (Local + Cloud).”  
-> “Create a folder named world-loop, copy these files into their exact respective paths, and you will have the entire project ready to run.”
+Phase 19 complete: Replication, Reality Layer, Seed Tournaments.
 
-## Research Milestones
-See [ROADMAP.md](ROADMAP.md) for the path toward a full evolutionary cognition research platform. Benchmark suite and observability features coming in Phase 6.
-
-## Setup
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
-
-## Execution
-Ensure you have either an OpenAI API key exported (`export OPENAI_API_KEY="..."`) or Ollama running locally.
-
-./run.sh
+See ROADMAP.md for details.
